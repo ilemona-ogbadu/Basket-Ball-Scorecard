@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>SCORE CARD</title>
- <link rel="stylesheet" href="/index.css">
-</head>
-<body>
-
- <div class="main_background">
-  <!-- BOARD 1 -->
-  <div class="home_board">
-   <h1 class="head">HOME</h1>
-   <div class="board">0</div>
-   <div class="score_btn">
-    <button class="btn1 btn" onclick="btn1()">+1</button>
-    <button class="btn2 btn" onclick="btn2()">+2</button>
-    <button class="btn3 btn" onclick="btn3()" >+3</button>
-   </div>
-   <button class="reset btn" onclick="reset()">RESET</button>
-  </div>
-  <!-- END OF BOARD 1 -->
-  <!-- BOARD 2 -->
-  <div class="home_board">
-      <h1 class="head">GUEST</h1>
-      <div class="board1">0</div>
-      <div class="score_btn">
-       <button class="btn4 btn" onclick="btn4()">+1</button>
-       <button class="btn5 btn" onclick="btn5()">+2</button>
-       <button class="btn6 btn" onclick="btn6()" >+3</button>
-      </div>
-      <button class="reset1 btn" onclick="reset1()">RESET</button>
-     </div>
-     <!--END OF BOARD 2 -->
-  
-   
- </div>
-<script src="index.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SCORE CARD</title>
+		<link rel="stylesheet" href="/index.css" />
+	</head>
+	<body>
+		<div class="main_background">
+			<!-- BOARD 1 -->
+			<div class="home_board">
+				<h1 class="head">HOME</h1>
+				<div class="board">0</div>
+				<div class="score_btn">
+					<button class="btn1 btn" onclick="btn1()">+1</button>
+					<button class="btn2 btn" onclick="btn2()">+2</button>
+					<button class="btn3 btn" onclick="btn3()">+3</button>
+				</div>
+				<button class="reset btn" onclick="reset()">RESET</button>
+			</div>
+			<!-- END OF BOARD 1 -->
+			<!-- BOARD 2 -->
+			<div class="home_board">
+				<h1 class="head">AWAY</h1>
+				<div class="board1">0</div>
+				<div class="score_btn">
+					<button class="btn4 btn" onclick="btn4()">+1</button>
+					<button class="btn5 btn" onclick="btn5()">+2</button>
+					<button class="btn6 btn" onclick="btn6()">+3</button>
+				</div>
+				<button class="reset1 btn" onclick="reset1()">RESET</button>
+			</div>
+			<!--END OF BOARD 2 -->
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>
